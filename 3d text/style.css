@@ -1,0 +1,9 @@
+.text {
+  font-size: 6rem;
+  font-family: arial;
+  font-weight: bold;
+  color: #ff6d6d;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 1px red, 2px 2px 1px red, 3px 3px 1px red,
+    4px 4px 1px red, 5px 5px 1px red, 6px 6px 1px red, 5px 15px 12px black;
+}
