@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  column-gap: 30px;
+}
+.advance-hover {
+  list-style: none;
+  font-family: sans-serif;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #3f51b5;
+  cursor: pointer;
+  position: relative;
+}
+.advance-hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #ff9800;
+
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s;
+}
+.advance-hover:hover::after {
+  transform: scale(1);
+  transform-origin: left;
+}
